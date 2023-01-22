@@ -14,7 +14,7 @@ jobs:
             - v1-dependencies-{{ checksum "requirements.txt" }}
             - v1-dependencies-
       - run:
-          name: Install dependencies
+          name: Install python dependencies
           command: |
             python3 -m venv venv 
             . venv/bin/activate
